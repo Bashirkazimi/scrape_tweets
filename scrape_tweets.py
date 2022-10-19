@@ -113,7 +113,7 @@ def get_api():
 
 if __name__ == '__main__':
     start_time = time.time()
-    hashtag = sys.argv[1]
+    hashtag = '#'+sys.argv[1]
     date_since = sys.argv[2]
     date_until = sys.argv[3]
     numtweet = sys.argv[4]
