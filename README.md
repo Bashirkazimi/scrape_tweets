@@ -23,7 +23,7 @@ This is a simple python program to scrape tweets that contains a specific hashta
 `python scrape_tweets.py someHashtag 2022-10-15 2022-10-17 1000`
 
 - Note that the hashtag should be given without the prefix `#`, otherwise the program will ignore anything after it.
--  
+  
 - It will run and save the tweets in a `csv` file in the current directory.
 
 
