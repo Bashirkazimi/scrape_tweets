@@ -20,8 +20,10 @@ This is a simple python program to scrape tweets that contains a specific hashta
 
 - Example run to retrieve 1000 tweets published from October 15th until October 17th containing #someHashtag:
 
-`python scrape_tweets.py #someHashtag 2022-10-15 2022-10-17 1000`
+`python scrape_tweets.py someHashtag 2022-10-15 2022-10-17 1000`
 
+- Note that the hashtag should be given without the prefix `#`, otherwise the program will ignore anything after it.
+-  
 - It will run and save the tweets in a `csv` file in the current directory.
 
 
